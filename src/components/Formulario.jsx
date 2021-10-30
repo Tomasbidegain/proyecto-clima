@@ -17,6 +17,7 @@ const Formulario = ( { busqueda, setBusqueda, setConsulta }) => {
 
     //Error
 
+    // eslint-disable-next-line no-unused-vars
     const [error, guardarError] = useState(false); 
 
     //Cuando el usuario hace click en el submit
