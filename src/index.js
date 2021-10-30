@@ -6,5 +6,5 @@ import './index.css';
 ReactDOM.render(
     <AppClima />,
   document.getElementById('root')
-);
+)
 
