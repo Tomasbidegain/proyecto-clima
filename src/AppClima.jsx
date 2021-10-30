@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Formulario from './components/Formulario';
@@ -32,7 +33,7 @@ function App() {
 
     consultarApi();
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [consultar])
 
 
