@@ -4,9 +4,7 @@ import './index.css';
 import AppClima from './AppClima';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <AppClima />
-  </React.StrictMode>,
+    <AppClima />,
   document.getElementById('root')
 );
 
