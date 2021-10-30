@@ -32,7 +32,8 @@ function App() {
 
     consultarApi();
 
-  }, [ciudad, consultar, pais])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [consultar])
 
 
   return (
