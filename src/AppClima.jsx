@@ -32,7 +32,7 @@ function App() {
 
     consultarApi();
 
-  }, [consultar])
+  }, [ciudad, consultar, pais])
 
 
   return (
