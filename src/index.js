@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import AppClima from './AppClima';
+import './index.css';
 
 ReactDOM.render(
     <AppClima />,
